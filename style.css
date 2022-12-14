@@ -1,0 +1,23 @@
+.hero {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.main-title {
+    font-weight: bold;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.subtext,
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+}
