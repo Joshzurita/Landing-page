@@ -1,3 +1,4 @@
+/*Top section*/
 .hero {
     background-color: #1f2937;
 }
@@ -20,4 +21,35 @@
 
 ul {
     list-style: none;
+}
+
+/*This is for the top mid section*/
+.info-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*This is for the bottom mid section*/
+.gray {
+    background-color: #e5e7eb;
+
+}
+
+.quote {
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+/*This is the bottom section*/
+.call {
+    background-color: #3882f6;
+}
+
+.action {
+    font-weight: 500;
+}
+
+.button {
+    background-color: #3882f6 ;
 }
