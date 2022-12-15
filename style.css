@@ -1,6 +1,10 @@
+
+
 /*Top section*/
 .hero {
     background-color: #1f2937;
+    padding: 32px;
+
 }
 
 .logo {
@@ -11,6 +15,7 @@
     font-weight: bold;
     font-size: 48px;
     color: #f9faf8;
+    max-width: 400px;
 }
 
 .subtext,
@@ -19,9 +24,33 @@
     color: #e5e7eb;
 }
 
+.subtext {
+    max-width: 400px;
+}
+
 ul {
     list-style: none;
+    display: flex;
+    gap: 16px;
 }
+
+/*applying flexbox*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /*This is for the top mid section*/
 .info-title {
@@ -52,4 +81,16 @@ ul {
 
 .button {
     background-color: #3882f6 ;
+}
+
+/*This is the footer*/
+.footer {
+    background-color: #1f2937;
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
